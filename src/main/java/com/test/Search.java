@@ -55,7 +55,7 @@ public class Search {
   }
 
   private static void printUsage() {
-    System.out.println("Usage example: java com.test.Search 'Малый пер.' 'Малый пр.'");
+    System.out.println("Usage example: java -jar string-comparator.jar \"Малый пер.\" \"Малый пер.\"");
   }
 
   private static double getStringDiffRatio(List<StringToken> inputLexems,
